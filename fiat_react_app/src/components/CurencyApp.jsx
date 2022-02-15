@@ -51,7 +51,7 @@ const CurrencyApp = () => {
           </select>
         </div>
         <button className="exchange">
-        <FontAwesomeIcon icon="fa-solid fa-equals" />
+        <i class="fa-regular fa-user"></i>
         </button>
         <div className="values-right">
           <input
