@@ -66,13 +66,9 @@ body {
   font-size: 25px;
   cursor: pointer;
 }
-button {
+i {
   font-size: 50px;
   background: none;
   border: none;
   color: white;
-}
-button:hover {
-  color: pink;
-  cursor: pointer;
 }

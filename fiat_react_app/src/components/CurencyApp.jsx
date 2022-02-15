@@ -50,9 +50,9 @@ const CurrencyApp = () => {
             ))}
           </select>
         </div>
-        <button className="exchange">
-        <i class="fa-regular fa-user"></i>
-        </button>
+        
+        <i className="fa-regular fa-user"></i>
+        
         <div className="values-right">
           <input
             type="number"
