@@ -18,12 +18,12 @@ const CurrencyApp = () => {
   }, []);
 
   // functions
-  
+
   const calculatedCurrency = () => {
     const chosenCurrencyValue = currencies.find(
       ({ code }) => code === chosenCurrency
     )?.mid;
-    
+
     return (chosenAmount * chosenCurrencyValue).toFixed(4);
   };
 
@@ -50,13 +50,18 @@ const CurrencyApp = () => {
             ))}
           </select>
         </div>
-        <button  className="exchange">
-                <i class="far fa-arrow-alt-circle-right"></i>
-            </button>
+        <button className="exchange">
+        <FontAwesomeIcon icon="fa-solid fa-equals" />
+        </button>
         <div className="values-right">
-          <input type="number" value={calculatedCurrency()} className="amount2"  disabled />
+          <input
+            type="number"
+            value={calculatedCurrency()}
+            className="amount2"
+            disabled
+          />
           <select id="currency2">
-          <option value="PLN">PLN</option>
+            <option value="PLN">PLN</option>
           </select>
         </div>
       </div>
