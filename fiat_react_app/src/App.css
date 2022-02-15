@@ -12,6 +12,7 @@ body {
   padding: 20px;
   background-image: linear-gradient(#93bef0, #3951db);
   color: white;
+  border-radius: 10px;
 
   text-align: center;
   border: solid 2px #cca4c5;
@@ -68,7 +69,7 @@ body {
 }
 .equals {
   font-size: 50px;
-  background: none;
+  font-weight: bold;
   border: none;
   color: white;
 }
