@@ -50,11 +50,11 @@ const CurrencyApp = () => {
             ))}
           </select>
         </div>
-        <button onClick={calculatedCurrency()} className="exchange">
+        <button  className="exchange">
                 <i class="far fa-arrow-alt-circle-right"></i>
             </button>
         <div className="values-right">
-          <input type="number" className="amount2"  disabled />
+          <input type="number" value={calculatedCurrency()} className="amount2"  disabled />
           <select id="currency2">
           <option value="PLN">PLN</option>
           </select>
