@@ -66,7 +66,7 @@ body {
   font-size: 25px;
   cursor: pointer;
 }
-i {
+.equals {
   font-size: 50px;
   background: none;
   border: none;

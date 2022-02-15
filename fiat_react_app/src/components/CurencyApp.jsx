@@ -50,9 +50,7 @@ const CurrencyApp = () => {
             ))}
           </select>
         </div>
-        
-        <i className="fa-regular fa-user"></i>
-        
+        <p className="equals">=</p>
         <div className="values-right">
           <input
             type="number"
