@@ -8,7 +8,7 @@ const CurrencyApp = () => {
   const [chosenCurrency, setChosenCurrency] = useState(initChosenCurrency);
   const [currencies, setCurrencies] = useState(initCurrencies);
   const NBP_API_URL =
-    "http://api.nbp.pl/api/exchangerates/tables/a/?format=json";
+    "https://api.nbp.pl/api/exchangerates/tables/a/?format=json";
 
   useEffect(() => {
     fetch(NBP_API_URL)
